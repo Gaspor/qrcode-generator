@@ -4,8 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "npx eslint *.js && npx nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Gaspor",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "qrcode": "^1.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.12.0"
+  }
 }
